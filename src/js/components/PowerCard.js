@@ -9,7 +9,8 @@ class PowerCard extends Component {
                     <h3 class="panel-title">{power.name}</h3>
                 </div>
                 <div class="panel-body">
-                    {power.description}
+                    Description: {power.description}<br/>
+                    Class: {power.playerClass}
                 </div>
             </div>
         );

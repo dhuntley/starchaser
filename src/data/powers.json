@@ -1,10 +1,17 @@
 [
     {
         "name": "My Power",
-        "description": "Oh just such a good power"
+        "description": "Oh just such a good power",
+        "playerClass": "marksman"
     },
     {
         "name": "My OTHER Power",
-        "description": "Oh just a REAL good power"
+        "description": "Oh just a REAL good power",
+        "playerClass": "brawler"
+    },
+    {
+        "name": "Thuh best pwr",
+        "description": "very good",
+        "playerClass": "brawler"
     }
 ]
