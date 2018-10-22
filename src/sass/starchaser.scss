@@ -1,5 +1,19 @@
-.power-list {
-    .power-card {
+.power-filter {
+    padding: 10px;
+}
 
+.power-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
+    .power-card {
+        flex-grow: 0;
+        min-width: 500px;
+        margin: 10px;
+
+        &.selected {
+            border: blue solid 1px;
+        }
     }
 }

@@ -1,14 +1,28 @@
 import React, { Component } from 'react';
 
 class PowerCard extends Component {
+    constructor() {
+        super();
+
+        this.state = {
+            selected: false
+        };
+    }
+
+    handleSelected = () => {
+        this.setState({
+            selected: !this.state.selected
+        });
+    }
+
     render() {
         const {power} = this.props;
         return (
-            <div class="power-card panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">{power.name}</h3>
+            <div className={`power-card card${this.state.selected ? " selected" : ""}`} onClick={this.handleSelected}>
+                <div className="card-header">
+                    <h3 className="panel-title">{power.name}</h3>
                 </div>
-                <div class="panel-body">
+                <div className="card-body">
                     Description: {power.description}<br/>
                     Class: {power.playerClass}
                 </div>

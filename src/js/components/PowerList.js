@@ -12,7 +12,7 @@ class PowerList extends Component {
     }
 
     handleFilterClass(className) {
-        this.setState({classFilter: className});
+        this.setState({ classFilter: className });
     }
 
     render() {
@@ -26,21 +26,47 @@ class PowerList extends Component {
                 } else {
                     return false;
                 }
-            }).map(power => (<PowerCard power={power} />));
+            }).map(power => (<PowerCard key={power.name} power={power} />));
         return (
-            <div className='power-list'>
-                <form>
-                    <div className="form-group">
-                        <label for="exampleFormControlSelect1">Filter by Class</label>
-                        <select value={classFilter} classNames="form-control" id="exampleFormControlSelect1" onChange={(event) => this.handleFilterClass(event.target.value)}>
-                            <option value={'all'}>All</option>
-                            <option value={'brawler'}>Brawler</option>
-                            <option value={'marksman'}>Marksman</option>
-                        </select>
+            <React.Fragment>
+                <form className="power-filter">
+                    <div className="form-row">
+                        <div className="col">
+                            <div className="form-group">
+                                <label htmlFor="classFilterSelect">Filter by Class</label>
+                                <select value={classFilter} className="form-control" id="classFilterSelect" onChange={(event) => this.handleFilterClass(event.target.value)}>
+                                    <option value={'all'}>All</option>
+                                    <option value={'brawler'}>Brawler</option>
+                                    <option value={'marksman'}>Marksman</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="form-group">
+                                <label htmlFor="classFilterSelect2">Filter by Class</label>
+                                <select value={classFilter} className="form-control" id="classFilterSelect2" onChange={(event) => this.handleFilterClass(event.target.value)}>
+                                    <option value={'all'}>All</option>
+                                    <option value={'brawler'}>Brawler</option>
+                                    <option value={'marksman'}>Marksman</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="form-group">
+                                <label htmlFor="classFilterSelect3">Filter by Class</label>
+                                <select value={classFilter} className="form-control" id="classFilterSelect3" onChange={(event) => this.handleFilterClass(event.target.value)}>
+                                    <option value={'all'}>All</option>
+                                    <option value={'brawler'}>Brawler</option>
+                                    <option value={'marksman'}>Marksman</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
                 </form>
-                {powerList}
-            </div>
+                <div className='power-list'>
+                    {powerList}
+                </div>
+            </React.Fragment>
         );
     }
 }
