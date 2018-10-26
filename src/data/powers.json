@@ -1,17 +1,47 @@
 [
     {
-        "name": "My Bad Man Power",
-        "description": "Oh just such a good power",
-        "playerClass": "marksman"
+        "name": "Vengeful Strike",
+        "description": "When you are hit with a melee attack, you can use your reaction to make a basic melee strike against your attacker. This feature is regained on a short or long rest.",
+        "playerClass": "brawler",
+        "playerSubClass": "core",
+        "actionClass": "standard",
+        "actionType": "Reaction",
+        "actionTags": "Short Rest Recharge"
     },
     {
-        "name": "My OTHER Power",
-        "description": "Oh just a REAL good power",
-        "playerClass": "brawler"
+        "name": "Duck and Roll",
+        "description": "You gain a +1 block against ranged combatants as long as you end your turn in melee range of an enemy friendly to your attacker. Normal cover rules apply and the enemy is treated as if they were a fence or other barrier that would grant cover.",
+        "playerClass": "brawler",
+        "playerSubClass": "core",
+        "actionClass": "standard",
+        "actionType": "Passive",
+        "actionTags": ""
     },
     {
-        "name": "Thuh best pwr",
-        "description": "very good",
-        "playerClass": "brawler"
+        "name": "Offhand Strike",
+        "description": "When you take your action to make an attack, you may attack twice instead of once. If you are attacking with a two handed weapon, you may choose -2 MP and forgo use of any block or dodge until your next turn to attack a second time. If you choose to use your attack action for another purpose, you do not get an additional attack. Weapon effects, dice bonuses, and critical strikes may only be applied for the first of these attacks- the second attack is considered a basic attack.",
+        "playerClass": "brawler",
+        "playerSubClass": "core",
+        "actionClass":"standard",
+        "actionType": "Passive",
+        "actionTags": ""
+    },
+    {
+        "name": "Silent Padfoot",
+        "description": "If you have not yet attacked on your turn, you gain +1 Superior on Quick checks to run or jump and Tough checks made to climb",
+        "playerClass": "brawler",
+        "playerSubClass": "martialFighter",
+        "actionClass":"standard",
+        "actionType": "Passive",
+        "actionTags": "Skill"
+    },
+    {
+        "name": "Woodsmans Versatility",
+        "description": "You gain proficiency in 1 basic melee weapon type. In addition, after making a ranged attack you gain +1 Standard on your next melee attack against the same target.",
+        "playerClass": "marksman",
+        "playerSubClass": "core",
+        "actionClass": "core",
+        "actionType": "Passive",
+        "actionTags": "One Time Use"
     }
 ]

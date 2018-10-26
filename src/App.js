@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
 
           <p>
-            Edit <code>src/App.js</code> and save to CRANKY TITS.
+            Edit <code>src/App.js</code> and save to Right Here.
           </p>
           <a
             className="App-link"
