@@ -20,11 +20,13 @@ class PowerCard extends Component {
         return (
             <div className={`power-card card${this.state.selected ? " selected" : ""}`} onClick={this.handleSelected}>
                 <div className="card-header">
-                    <h3 className="panel-title">{power.name}</h3>
+                    <h4 className="panel-title">{power.name} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {power.playerClass} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {power.playerSubClass} </h4>
                 </div>
                 <div className="card-body">
+                    Tags: {power.actionTags}<br/>
+                    Action Type: {power.actionType}<br/>
                     Description: {power.description}<br/>
-                    Class: {power.playerClass}
+                    
                 </div>
             </div>
         );
