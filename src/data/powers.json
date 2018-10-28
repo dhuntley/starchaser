@@ -43,7 +43,7 @@
         "actionClass": "core",
         "actionType": "Passive",
         "actionTags": "One Time Use"
-    }
+    },
     {
         "name": "Hailstorm",
         "description": "Lay down a barrage of cover fire, blanketing a 3mx3m zone in a sheet of bullets. Any enemy that moves through this square before your next turn must succeed on a Reflex save or it takes a 1 piercing damage and loses 1MP per square travelled through your zone.",
