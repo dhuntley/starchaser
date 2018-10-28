@@ -4,6 +4,7 @@
         "description": "When you are hit with a melee attack, you can use your reaction to make a basic melee strike against your attacker. This feature is regained on a short or long rest.",
         "playerClass": "brawler",
         "playerSubClass": "core",
+        "actionCost": "",
         "actionClass": "standard",
         "actionType": "Reaction",
         "actionTags": "Short Rest Recharge"
@@ -13,6 +14,7 @@
         "description": "You gain a +1 block against ranged combatants as long as you end your turn in melee range of an enemy friendly to your attacker. Normal cover rules apply and the enemy is treated as if they were a fence or other barrier that would grant cover.",
         "playerClass": "brawler",
         "playerSubClass": "core",
+        "actionCost": "",
         "actionClass": "standard",
         "actionType": "Passive",
         "actionTags": ""
@@ -22,6 +24,7 @@
         "description": "When you take your action to make an attack, you may attack twice instead of once. If you are attacking with a two handed weapon, you may choose -2 MP and forgo use of any block or dodge until your next turn to attack a second time. If you choose to use your attack action for another purpose, you do not get an additional attack. Weapon effects, dice bonuses, and critical strikes may only be applied for the first of these attacks- the second attack is considered a basic attack.",
         "playerClass": "brawler",
         "playerSubClass": "core",
+        "actionCost": "",
         "actionClass":"standard",
         "actionType": "Passive",
         "actionTags": ""
@@ -31,15 +34,17 @@
         "description": "If you have not yet attacked on your turn, you gain +1 Superior on Quick checks to run or jump and Tough checks made to climb",
         "playerClass": "brawler",
         "playerSubClass": "martialFighter",
+        "actionCost": "",
         "actionClass":"standard",
         "actionType": "Passive",
-        "actionTags": "Skill"
+        "actionTags": "Tough or Quick Skill"
     },
     {
         "name": "Woodsmans Versatility",
         "description": "You gain proficiency in 1 basic melee weapon type. In addition, after making a ranged attack you gain +1 Standard on your next melee attack against the same target.",
         "playerClass": "marksman",
         "playerSubClass": "core",
+        "actionCost": "",
         "actionClass": "core",
         "actionType": "Passive",
         "actionTags": "One Time Use"
@@ -49,8 +54,38 @@
         "description": "Lay down a barrage of cover fire, blanketing a 3mx3m zone in a sheet of bullets. Any enemy that moves through this square before your next turn must succeed on a Reflex save or it takes a 1 piercing damage and loses 1MP per square travelled through your zone.",
         "playerClass": "marksman",
         "playerSubClass": "core",
+        "actionCost": "1 Focus",
         "actionClass": "standard",
         "actionType": "Attack",
         "actionTags": "Short Rest Recharge"
+    },
+    {
+        "name": "True Grit",
+        "description": "When you would take a wound, you can choose to postpone that wound. You draw the wound immediately (as normal), but you do not experience the effects of that wound until you fail a Grit save (rolled at the end of each turn). This ability regenerates after a long rest.",
+        "playerClass": "marksman",
+        "playerSubClass": "Gunslinger",
+        "actionCost": "2 Focus",
+        "actionClass": "standard",
+        "actionType": "Reaction",
+        "actionTags": ["Long Rest Recharge"]
+    },
+    {
+        "name": "Chameleon",
+        "description": "You may sacrifice your Action for this turn to immediately re-use your Ghillie Suit ability. You perfect camouflage allows you to make your Sneak check to hide without requiring any cover. You regain this ability after a successful short rest.",
+        "playerClass": "marksman",
+        "playerSubClass": "Ghost Operative",
+        "actionClass": "advanced",
+        "actionType": "Passive",
+        "actionTags": ["Sneak Skill", "Short Rest Recharge"]
+    },
+    {
+        "name": "Shield Master",
+        "description": "You gain proficiency with <i>Heavy Shields</i> and with the Shield Smash attack made with heavy shields as well.",
+        "playerClass": "protector",
+        "playerSubClass": "core",
+        "actionClass": "standard",
+        "actionType": "Passive",
+        "actionTags": ""
     }
+
 ]
