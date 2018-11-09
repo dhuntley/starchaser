@@ -85,7 +85,7 @@
         "playerSubClass": "core",
         "actionClass": "standard",
         "actionType": "Passive",
-        "actionTags": ""
+        "actionTags": ["Proficiency"]
     }
 
 ]
