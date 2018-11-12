@@ -76,7 +76,7 @@
         "playerSubClass": "Ghost Operative",
         "actionClass": "advanced",
         "actionType": "Passive",
-        "actionTags": ["Sneak Skill", "Short Rest Recharge"]
+        "actionTags": ["Sneak Skill","Short Rest Recharge"]
     },
     {
         "name": "Shield Master",
@@ -86,6 +86,15 @@
         "actionClass": "standard",
         "actionType": "Passive",
         "actionTags": ["Proficiency"]
+    },
+    {
+        "name": "Pharmaceutical Research",
+        "description": "You may begin to experiment with adding narcotic shots to your First Aid kit that can be used in combat situations. These additives have an effect on your player target in addition to their normal purpose. Most narcotics have potential detrimental effects in addition to their combat bonuses, but these effects can be wholly or partially mitigated by a trained Leader with knowledge of correct dosing and drug administration procedure. You immediately gain access to the Morphine Drip additive. This additive may be applied once per combat encounter along with First Aid’s normal effect.",
+        "playerClass": "leader",
+        "playerSubClass": "core",
+        "actionClass": "standard",
+        "actionType": "Passive",
+        "actionTags": ["Downtime","Passive"]
     }
 
 ]

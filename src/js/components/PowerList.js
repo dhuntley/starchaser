@@ -38,6 +38,11 @@ class PowerList extends Component {
                                     <option value={'all'}>All</option>
                                     <option value={'brawler'}>Brawler</option>
                                     <option value={'marksman'}>Marksman</option>
+                                    <option value={'protector'}>Protector</option>
+                                    <option value={'leader'}>Leader</option>
+                                    <option value={'battletech'}>Battle Tech</option>
+                                    <option value={'psion'}>Psion</option>
+                                    <option value={'elementalist'}>Elementalist</option>
                                 </select>
                             </div>
                         </div>
