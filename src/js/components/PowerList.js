@@ -48,7 +48,7 @@ class PowerList extends Component {
                         </div>
                         <div className="col">
                             <div className="form-group">
-                                <label htmlFor="classFilterSelect2">Filter by Class</label>
+                                <label htmlFor="classFilterSelect2">Filter by Sub-Class</label>
                                 <select value={classFilter} className="form-control" id="classFilterSelect2" onChange={(event) => this.handleFilterClass(event.target.value)}>
                                     <option value={'all'}>All</option>
                                     <option value={'brawler'}>Brawler</option>
@@ -58,7 +58,7 @@ class PowerList extends Component {
                         </div>
                         <div className="col">
                             <div className="form-group">
-                                <label htmlFor="classFilterSelect3">Filter by Class</label>
+                                <label htmlFor="classFilterSelect3">Filter by Action Level</label>
                                 <select value={classFilter} className="form-control" id="classFilterSelect3" onChange={(event) => this.handleFilterClass(event.target.value)}>
                                     <option value={'all'}>All</option>
                                     <option value={'brawler'}>Brawler</option>

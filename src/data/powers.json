@@ -80,7 +80,7 @@
     },
     {
         "name": "Shield Master",
-        "description": "You gain proficiency with <i>Heavy Shields</i> and with the Shield Smash attack made with heavy shields as well.",
+        "description": "You gain proficiency with Heavy Shields and with the Shield Smash attack made with heavy shields as well.",
         "playerClass": "protector",
         "playerSubClass": "core",
         "actionClass": "standard",

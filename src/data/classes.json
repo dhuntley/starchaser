@@ -1,0 +1,23 @@
+[
+    {
+    "name": "Brawler",
+    "subclasses": ["Martial Fighter", "Weapon Master", "Swashbuckler"],
+    "classcolor": "#ffbfbf"
+    },
+    {
+    "name": "Marksman",
+    "subclasses": ["Ghost Operative", "Gunslinger", "Survivalist"],
+    "classcolor": "#c0ffbf"
+    },
+    {
+    "name": "Protector",
+    "subclasses": ["Juggernaut", "Phalanx", "Veteran"],
+    "classcolor": "#cccccc"
+    },
+    {
+    "name": "Leader",
+    "subclasses": ["Inspirational", "Resourceful", "Tactical"],
+    "classcolor": "#a0ffed"
+    }
+
+]
