@@ -12,6 +12,40 @@
         min-width: 500px;
         margin: 10px;
 
+        #cardHeader {
+            box-sizing: border-box;
+            text-align: left;
+            margin: 0;
+        }
+        #cardhead1 {
+            width: 50%;
+            float: left;
+        }
+        #cardhead2 {
+            width: 20%;
+            float: left;
+        }
+        #cardhead3 {
+            width: 30%;
+            float: left;
+        }
+
+        .brawler {
+            background-color:rgba(117, 5, 5, 0.637);
+        }
+
+        .marksman {
+            background-color:rgba(2, 116, 8, 0.637);
+        }
+
+        .protector {
+            background-color:rgba(94, 91, 91, 0.767);
+        }
+
+        .leader {
+            background-color:rgba(5, 95, 117, 0.637);
+        }
+
         &.selected {
             border: blue solid 3px;
         }
