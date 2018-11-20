@@ -6,8 +6,7 @@
         "playerSubClass": "core",
         "actionCost": "",
         "actionClass": "standard",
-        "actionType": "Reaction",
-        "actionTags": "Short Rest Recharge"
+        "actionTags": ["Reaction","Short Rest Recharge"]
     },
     {
         "name": "Duck and Roll",
@@ -16,8 +15,7 @@
         "playerSubClass": "core",
         "actionCost": "",
         "actionClass": "standard",
-        "actionType": "Passive",
-        "actionTags": ""
+        "actionTags": ["Passive"]
     },
     {
         "name": "Offhand Strike",
@@ -26,8 +24,7 @@
         "playerSubClass": "core",
         "actionCost": "",
         "actionClass":"standard",
-        "actionType": "Passive",
-        "actionTags": ""
+        "actionTags": ["Passive"]
     },
     {
         "name": "Silent Padfoot",
@@ -36,8 +33,7 @@
         "playerSubClass": "martialFighter",
         "actionCost": "",
         "actionClass":"standard",
-        "actionType": "Passive",
-        "actionTags": "Tough or Quick Skill"
+        "actionTags": ["Passive","Tough or Quick Skill"]
     },
     {
         "name": "Woodsmans Versatility",
@@ -46,8 +42,7 @@
         "playerSubClass": "core",
         "actionCost": "",
         "actionClass": "core",
-        "actionType": "Passive",
-        "actionTags": "One Time Use"
+        "actionTags": ["Passive","One Time Use"]
     },
     {
         "name": "Hailstorm",
@@ -56,8 +51,7 @@
         "playerSubClass": "core",
         "actionCost": "1 Focus",
         "actionClass": "standard",
-        "actionType": "Attack",
-        "actionTags": "Short Rest Recharge"
+        "actionTags": ["Attack","Short Rest Recharge"]
     },
     {
         "name": "True Grit",
@@ -66,34 +60,33 @@
         "playerSubClass": "Gunslinger",
         "actionCost": "2 Focus",
         "actionClass": "standard",
-        "actionType": "Reaction",
-        "actionTags": ["Long Rest Recharge"]
+        "actionTags": ["Reaction","Long Rest Recharge"]
     },
     {
         "name": "Chameleon",
         "description": "You may sacrifice your Action for this turn to immediately re-use your Ghillie Suit ability. You perfect camouflage allows you to make your Sneak check to hide without requiring any cover. You regain this ability after a successful short rest.",
         "playerClass": "marksman",
         "playerSubClass": "Ghost Operative",
+        "actionCost": "",
         "actionClass": "advanced",
-        "actionType": "Passive",
-        "actionTags": ["Sneak Skill","Short Rest Recharge"]
+        "actionTags": ["Passive","Sneak Skill","Short Rest Recharge"]
     },
     {
         "name": "Shield Master",
         "description": "You gain proficiency with Heavy Shields and with the Shield Smash attack made with heavy shields as well.",
         "playerClass": "protector",
         "playerSubClass": "core",
+        "actionCost": "",
         "actionClass": "standard",
-        "actionType": "Passive",
-        "actionTags": ["Proficiency"]
+        "actionTags": ["Passive","Proficiency"]
     },
     {
         "name": "Pharmaceutical Research",
         "description": "You may begin to experiment with adding narcotic shots to your First Aid kit that can be used in combat situations. These additives have an effect on your player target in addition to their normal purpose. Most narcotics have potential detrimental effects in addition to their combat bonuses, but these effects can be wholly or partially mitigated by a trained Leader with knowledge of correct dosing and drug administration procedure. You immediately gain access to the Morphine Drip additive. This additive may be applied once per combat encounter along with First Aid’s normal effect.",
         "playerClass": "leader",
         "playerSubClass": "core",
+        "actionCost": "",
         "actionClass": "standard",
-        "actionType": "Passive",
         "actionTags": ["Downtime","Passive"]
     }
 
