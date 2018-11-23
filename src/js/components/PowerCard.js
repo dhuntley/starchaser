@@ -22,12 +22,12 @@ class PowerCard extends Component {
             <div className={`power-card card${this.state.selected ? " selected" : ""}`} onClick={this.handleSelected}>
                 <div className="card-header">
                     <h4 className="panel-title" class="cardHeader">
-                        <div class="cardheadpic img-fluid rounded" alt="">
-                            <img width="50px" height="auto" src={classes[power.playerClass].classimage} alt=" "></img>
+                        <div className="cardheadpic img-fluid rounded" alt="">
+                            <img width="50px" src={classes[power.playerClass].classimage} alt=" "></img>
                         </div>
-                        <div class="cardhead1">{power.name}</div>
-                        <div class="cardhead2"> {power.playerClass[0].toUpperCase() + power.playerClass.substring(1)} </div>
-                        <div class="cardhead3">{power.playerSubClass[0].toUpperCase() + power.playerSubClass.substring(1)}</div>
+                        <div className="cardhead1">{power.name}</div>
+                        <div className="cardhead2"> {power.playerClass[0].toUpperCase() + power.playerClass.substring(1)} </div>
+                        <div className="cardhead3">{power.playerSubClass[0].toUpperCase() + power.playerSubClass.substring(1)}</div>
                     </h4>
                 </div>
                 <div className={"card-body " + power.playerClass} id="bottomtext">
