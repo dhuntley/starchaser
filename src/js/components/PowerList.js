@@ -27,7 +27,8 @@ class PowerList extends Component {
                     return false;
                 }
             }).map(power => (<PowerCard key={power.name} power={power} />));
-        return (
+        
+            return (
             <React.Fragment>
                 <form className="power-filter">
                     <div className="form-row">

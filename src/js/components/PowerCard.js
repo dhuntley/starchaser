@@ -23,7 +23,7 @@ class PowerCard extends Component {
                 <div className="card-header">
                     <h4 className="panel-title" class="cardHeader">
                         <div class="cardheadpic img-fluid rounded" alt="">
-                            <img width="50px" height="auto" src={classes.classimage} alt="   "></img>
+                            <img width="50px" height="auto" src={classes[power.playerClass].classimage} alt=" "></img>
                         </div>
                         <div class="cardhead1">{power.name}</div>
                         <div class="cardhead2"> {power.playerClass[0].toUpperCase() + power.playerClass.substring(1)} </div>
