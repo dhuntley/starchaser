@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classes from '../../data/classes';
 
 class PowerCard extends Component {
     constructor() {
@@ -20,14 +21,16 @@ class PowerCard extends Component {
         return (
             <div className={`power-card card${this.state.selected ? " selected" : ""}`} onClick={this.handleSelected}>
                 <div className="card-header">
-                    <h3 className="panel-title" id="cardHeader">
-                        <div id="cardhead1">{power.name}</div>
-                        <div id="cardhead2"> {power.playerClass[0].toUpperCase() + power.playerClass.substring(1)} </div>
-                        <div id="cardhead3">{power.playerSubClass[0].toUpperCase() + power.playerSubClass.substring(1)}</div>
-                    </h3>
+                    <h4 className="panel-title" class="cardHeader">
+                        <div class="cardheadpic img-fluid rounded" alt="">
+                            <img width="50px" height="auto" src={classes.classimage} alt="   "></img>
+                        </div>
+                        <div class="cardhead1">{power.name}</div>
+                        <div class="cardhead2"> {power.playerClass[0].toUpperCase() + power.playerClass.substring(1)} </div>
+                        <div class="cardhead3">{power.playerSubClass[0].toUpperCase() + power.playerSubClass.substring(1)}</div>
+                    </h4>
                 </div>
                 <div className={"card-body " + power.playerClass} id="bottomtext">
-
                         Tags: {power.actionTags.join(', ')}<br/>
                         Action Type: {power.actionType}<br/>
                         Description: {power.description}<br/>

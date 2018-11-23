@@ -2,22 +2,26 @@
     {
     "name": "Brawler",
     "subclasses": ["Martial Fighter", "Weapon Master", "Swashbuckler"],
-    "classcolor": "#ffbfbf"
+    "classcolor": "#ffbfbf",
+    "classimage": "././images/Brawler_Icon.png"
     },
     {
     "name": "Marksman",
     "subclasses": ["Ghost Operative", "Gunslinger", "Survivalist"],
-    "classcolor": "#c0ffbf"
+    "classcolor": "#c0ffbf",
+    "classimage": "././images/Brawler_Icon.png"
     },
     {
     "name": "Protector",
     "subclasses": ["Juggernaut", "Phalanx", "Veteran"],
-    "classcolor": "#cccccc"
+    "classcolor": "#cccccc",
+    "classimage": "././images/Brawler_Icon.png"
     },
     {
     "name": "Leader",
     "subclasses": ["Inspirational", "Resourceful", "Tactical"],
-    "classcolor": "#a0ffed"
+    "classcolor": "#a0ffed",
+    "classimage": "././images/Brawler_Icon.png"
     }
 
 ]
